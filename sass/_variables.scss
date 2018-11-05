@@ -8,7 +8,6 @@ $color-foot: #344b8e;
 // Tipografía
 $color-tipo: #f7f3ea;
 $tipo-mayuscula: uppercase;
-$centrado: center;
 
 // Botones y bordes colores
 $color-btn1: #eb7d4b;
@@ -16,3 +15,18 @@ $color-btn2: #30bae7;
 $color-hover: #643a79;
 $color-bord1: #14a58c;
 $color-bord2: #273a71;
+
+// Mixins
+
+@mixin botones(){
+  border: 0;
+  width: 293px;
+  height: 70px;
+  margin-top: 50px;
+  background-color: $color-btn1;
+  border-radius: 5px;
+  border-bottom: 5px solid #c86a40;
+  font-size: 18px;
+  color: $color-tipo;
+  text-transform: $tipo-mayuscula;
+}

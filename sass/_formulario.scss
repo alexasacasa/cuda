@@ -1,0 +1,33 @@
+@import 'variables';
+
+#box3-container{
+  background-color: $color-box3;
+}
+
+.form{
+  .input{
+    margin: 15px;
+    border: 0;
+    width: 50%;
+    height: 50px;
+    background-color: $color-bord2;
+  }
+
+  #message{
+    border: 0;
+    width: 80%;
+    height: 200px;
+    background-color: $color-bord2
+  }
+
+  label::after{
+    content: "*";
+    color: #f2454a;
+  }
+}
+
+.button2{
+  @include botones; 
+  background-color: $color-btn2;
+  border-bottom: 5px solid #299ec5;
+}
