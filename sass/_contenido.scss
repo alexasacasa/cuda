@@ -1,0 +1,17 @@
+@import 'variables';
+
+#box2-container{
+  background-color: $color-box2;
+
+  .box{
+    float: left;
+    width: 25%;
+    margin-top: 10%;
+    padding-bottom: 10%;
+
+    h4{
+      padding-top: 1%;
+    }
+  }
+}
+
