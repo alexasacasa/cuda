@@ -9,6 +9,9 @@ body {
   color: #f7f3ea;
   text-align: center; }
 
+h2 {
+  font-size: 2.5rem; }
+
 h2, h4, button {
   text-transform: uppercase; }
 
@@ -21,7 +24,7 @@ a {
 
 .container {
   margin: 0 auto;
-  padding: 55px 0;
+  padding: 5% 0;
   width: 1100px; }
 
 .clearfix::after {
@@ -29,14 +32,58 @@ a {
   clear: both;
   display: block; }
 
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1rem;
+  color: #f7f3ea;
+  text-align: center; }
+
+h2 {
+  font-size: 2.5rem; }
+
+h2, h4, button {
+  text-transform: uppercase; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #f7f3ea; }
+
+.container {
+  margin: 0 auto;
+  padding: 5% 0;
+  width: 1100px; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block; }
+
+@media (min-width: 320px) and (max-width: 570px) {
+  .container {
+    padding: 2%;
+    width: 96%; } }
+@media (max-width: 1023px) {
+  .container {
+    width: 960px; }
+
+  .box {
+    width: 50%; } }
 #box1-container {
   background-color: #87509c; }
   #box1-container #logo {
     position: relative;
     float: left; }
   #box1-container .encabezado {
-    padding: 145px 0 0 0;
-    font-size: 2,22rem; }
+    padding-top: 5%;
+    font-size: 2.22rem; }
 
 #menu {
   float: right; }
@@ -50,7 +97,7 @@ a {
     font-weight: bold;
     text-transform: uppercase; }
   #menu a:hover, #menu .link-activo {
-    padding: 12px 16px;
+    padding: 5% 8%;
     border-radius: 8px;
     background-color: #643a79 !important; }
 
@@ -73,28 +120,37 @@ a {
   #box2-container .box {
     float: left;
     width: 25%;
-    margin-top: 10%;
-    padding-bottom: 10%; }
-    #box2-container .box h4 {
-      padding-top: 1%; }
+    margin: 10% 0; }
+
+.info-box p {
+  padding: 5px; }
 
 #box3-container {
   background-color: #3c5499; }
 
-.form .input {
-  margin: 15px;
-  border: 0;
-  width: 50%;
-  height: 50px;
-  background-color: #273a71; }
-.form #message {
-  border: 0;
-  width: 80%;
-  height: 200px;
-  background-color: #273a71; }
-.form label::after {
-  content: "*";
-  color: #f2454a; }
+.info-input {
+  float: left;
+  width: 50%; }
+  .info-input label {
+    float: left;
+    position: absolute; }
+
+.form {
+  margin: 5%; }
+  .form .input {
+    margin: 15px 5px;
+    border: 0;
+    width: 75%;
+    height: 50px;
+    background-color: #273a71; }
+  .form #message {
+    border: 0;
+    width: 80%;
+    height: 200px;
+    background-color: #273a71; }
+  .form label::after {
+    content: "*";
+    color: #f2454a; }
 
 .button2 {
   border: 0;
