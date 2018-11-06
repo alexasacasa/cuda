@@ -1,0 +1,32 @@
+@import 'variables';
+@import 'generales';
+@import 'header';
+@import 'contenido';
+@import 'formulario';
+@import 'footer';
+@import 'laptop';
+
+@media (max-width: 520px) and (min-width: 959px){
+  // Generales
+  .container{
+    padding: 2%;
+    width: 96%;
+  }
+
+  h2{
+    font-size: 1.33rem;
+  }
+
+  // Contendio
+  .box{
+    width: 50%;
+  }
+  //Formulario
+  .form{
+    margin: 5%;
+    .input{
+      width: 100%;
+    }
+  }
+  //Footer
+}
