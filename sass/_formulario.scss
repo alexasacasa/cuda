@@ -4,11 +4,22 @@
   background-color: $color-box3;
 }
 
+.info-input{
+  float: left;
+  width: 50%;
+
+  label{
+    float: left;
+    position: absolute;
+  }
+}
+
 .form{
+  margin: 5%;
   .input{
-    margin: 15px;
+    margin: 15px 5px;
     border: 0;
-    width: 50%;
+    width: 75%;
     height: 50px;
     background-color: $color-bord2;
   }

@@ -1,0 +1,10 @@
+@import 'variables';
+@import 'generales';
+
+@media (min-width: 320px) and (max-width: 570px){
+  // Generales
+  .container{
+    padding: 2%;
+    width: 96%;
+  }
+}

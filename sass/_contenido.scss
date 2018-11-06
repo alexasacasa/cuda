@@ -6,12 +6,13 @@
   .box{
     float: left;
     width: 25%;
-    margin-top: 10%;
-    padding-bottom: 10%;
+    margin: 10% 0;
+  }
+}
 
-    h4{
-      padding-top: 1%;
-    }
+.info-box{
+  p{
+    padding: 5px;
   }
 }
 
