@@ -1,11 +1,4 @@
-@import 'variables';
-@import 'generales';
-@import 'header';
-@import 'contenido';
-@import 'formulario';
-@import 'footer';
-
-@media (max-width: 1023px) and (min-width: 960px) {
+@media (max-width: 1024px){
   // Generales
   .container{
     padding: 5%;

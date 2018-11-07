@@ -1,11 +1,4 @@
-@import 'variables';
-@import 'generales';
-@import 'header';
-@import 'contenido';
-@import 'formulario';
-@import 'footer';
-
-@media (min-width: 320px) and (max-width: 480px){
+@media (min-width: 320px) and (max-width: 767px){
   // Generales
   .container{
     padding: 2%;
@@ -14,6 +7,7 @@
 
   // Header
   .encabezado{
+    margin: 10%;
     font-size: 1.22rem;
   }
   #menu{
@@ -22,7 +16,22 @@
 
   // Contenido
   .box{
+    float: none;
     width: 100%;
+    margin: 10% auto;
   }
 
+  // formulario
+  .info-input{
+    display: inline-block;
+  }
+  .form{
+    .input{
+      display: block;
+      width: 100%;
+    }
+    #message{
+      width: 100%;
+    }
+  }
 }

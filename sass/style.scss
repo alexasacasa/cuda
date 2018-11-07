@@ -1,9 +1,12 @@
-@import "variables";
+// Generales y variables
 @import 'generales';
-@import 'movile';
-@import 'tablet';
-@import 'laptop';
+@import "variables";
+// Estilos de la página
 @import 'header';
 @import 'contenido';
 @import 'formulario';
 @import 'footer';
+// Breakpoints
+@import 'laptop';
+@import 'tablet';
+@import 'movile';

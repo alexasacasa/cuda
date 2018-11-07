@@ -1,14 +1,7 @@
-@import 'variables';
-@import 'generales';
-@import 'header';
-@import 'contenido';
-@import 'formulario';
-@import 'footer';
-@import 'laptop';
-
-@media (max-width: 520px) and (min-width: 959px){
+@media (max-width: 1023px) and (min-width: 768px){
   // Generales
   .container{
+    max-width: 768px;
     padding: 2%;
     width: 96%;
   }
@@ -22,6 +15,11 @@
     width: 50%;
   }
   //Formulario
+  .info-input{
+    float: none;
+    display: block;
+    width: 100%;
+  }
   .form{
     margin: 5%;
     .input{
